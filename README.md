@@ -1,6 +1,6 @@
 
 <p align="center">
- <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
+ <img width="100px" src="https://avatars.githubusercontent.com/u/37273971?v=4" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">My Readme Stats</h2>
  <p align="center">Hi, I'm Fernando and i'm a {fullstack developer} in Brazil
 
