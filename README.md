@@ -29,10 +29,10 @@
     </a>
      <br />
     <br />
-    <a href="https://github.com/fagnerpsantos">
+    <a href="https://github.com/cyferweb">
       <img src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/fagnerpsantos"  />
     </a>
-    <a href="https://github.com/fagnerpsantos">
+    <a href="https://www.linkedin.com/in/fernando-filho-35bb2812b/">
       <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fagnerpsantos/"  />
     </a>
     <br/>
