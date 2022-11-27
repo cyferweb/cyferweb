@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.topbaar {
+    display:flex;
+    height: 40px;
+    align-items: center;
+    margin-bottom: unset;
+    background-color: #f4f4f4;
+}
+.topbaar a {
+    color: #0e0e0e;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.3;
+    padding: 0 20px 0 0px;
+}
+header ul {
+    margin: unset;
+    display: flex;
+}
+header ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+header ul li a {
+    color: #21bcbd;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2;
+    text-transform: uppercase;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+h1#calltxt {
+    font-size: 10px !important;
+    color: #21bcbd !important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.bannerImg {
+    width: 530px;
+}
+#banner1{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#banner h2 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #0e0e0e;
+    padding: 10px 0;
+}
+#banner p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #0e0e0e;
+}
+.clients {
+    padding: 100px 0;
+}
+#clientstitle {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 0;
+}
+#clientstxt {
+    font-size: 14px;
+    font-weight: 300;
+    color: #0e0e0e;
+}
+#boxLogos img {
+    margin: 20px;
+    filter: grayscale(70%) saturate(0.5);
+}
+.servicesBox a{
+    color: #21bcbd !important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.servicesBox {
+    display: grid;
+    row-gap: 20px;
+    column-gap: 30px;
+    padding-top: 20px;
+}
+.servicesBox p {
+    font-size: 12px !important;
+}
+.servicesBoxGrid {
+    grid-column-start: 1;
+}
+.servicesBoxGrid2 {
+    grid-column-start: 2;
+}
+.beneficiosBoxes h1 {
+    margin-bottom: 20px;
+}
+.beneficiosBoxes p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px !important;
+}
+.beneficiosBoxes svg{
+    margin-right: 10px;
+}
+.btnBoxes {
+    max-width: 50%;
+    margin: 50px 0;
+    background-color: #4289d7 !important;
+    border-color:#4289d7 !important
+}
+#titleBox {
+    font-size: 21px;
+    color: #4C4C4C;
+    font-weight: 700;
+    text-align: center;
+}
+#descBox {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px 20px;
+}
+#planosTxt {
+    text-align: center;
+    padding: 100px 0 20px 0;
+}
+#boxFullPrice {
+    color: #4C4C4C;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 2;
+    line-height: 2;
+}
+.footerTitle {
+    background-image: url(/img/bg3.png);
+    height: 62%;
+    background-position-x: center;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+}
+.footerTitle div {
+    padding-top: 160px;
+    color: #0e0e0e;
+}
+footer {
+    text-align: center; 
+    padding:8% 0;
+    background-color: #8dced4;
+
+}
+footer .row {
+    padding: 30px 100px;
+    text-align: left;
+}
+footer h1{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2;
+    color: #0e0e0e;
+    text-transform: uppercase;
+    border-bottom: #0e0e0e 1px solid;
+    max-width: 98%;
+    padding-bottom: 16px;
+    margin-bottom: 30px;
+}
+footer p{
+    text-decoration: none;
+    color: #0e0e0e !important;
+    font-size: 12px;
+    text-align: left;
+    letter-spacing: 1.2;
+}
+.cidadesBox {
+    display: grid;
+}
+.grid2 {
+    grid-column-start: 2;
+}
+/*Mobile*/
+@media (max-width:768px) {
+    .menu {
+        justify-content: center;
+    } #banner1{
+        padding: 40px 20px;
+    } #banner {
+        display: block;
+    } #bannerTxt {
+        max-width: 100%;
+    } #banner h1 {
+        font-size: 40px;
+    } #banner p {
+        font-size: 12px;
+    } .bannerImg {
+        width: inherit;
+        padding: 50px 0;
+    } .menuMobile {
+        display: none;
+    } #colBanner {
+        max-width: 100%;
+    } .beneficiosImagem1 {
+        width: 320px;
+        padding-bottom: 40px;
+    } .beneficiosImagem2 {
+        width: 320px;
+        padding-bottom: 40px;
+    } .beneficiosImagem2Row {
+        flex-direction: column-reverse;
+    } #banner h2 {
+        font-size: 22px;
+        padding: 30px 0;
+    } .footerTitle h1 {
+        font-size: 14px;
+    } .footerTitle p {
+        max-width: 82%;
+        font-size: 12px;
+        text-align: center;
+    } footer .row {
+        padding: 30px;
+    } html, body {
+        overflow-x: hidden !important;
+    }
+}
+
+/*Tablet*/
+@media (max-width:1024px) {
+    .menu {
+        justify-content: center;
+    } #banner1{
+        padding: 40px 20px;
+    } #banner {
+        display: block;
+    } #bannerTxt {
+        max-width: 100%;
+    } #banner h1 {
+        font-size: 60px;
+        text-align: center;
+    } #banner p {
+        font-size: 22px;
+        text-align: center;
+    } .bannerImg {
+        width: inherit;
+        padding: 50px 0;
+    } .menuMobile {
+        display: none;
+    } #colBanner {
+        max-width: 100%;
+    }
+}
